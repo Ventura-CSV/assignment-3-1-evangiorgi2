@@ -6,6 +6,8 @@ def main():
     number2 = random.randint(0, 100)
     number3 = random.randint(0, 100)
     
+    min_value = int()
+    
     if number1 < number2 and number1 < number3:
         min_value = number1
     else:
